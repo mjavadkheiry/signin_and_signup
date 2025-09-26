@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ba9b8c;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: papayawhip;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    padding-left: 3rem;
+}
+.welcomeback {
+    font-size: 2rem;
+    font-family: monospace;
+    background-color: papayawhip;
+    border: 0.003rem solid;
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: black;
+    font-family: Courier New;
+    opacity: 0.9;
+}
+.username {
+    margin-top: 1rem;
+    height: 2rem;
+    width: 15rem;
+    border: 0.003rem solid;
+    border-radius: 0.5rem;
+    background-color: papayawhip;
+}
+.password {
+    margin-top: 2rem;
+    height: 2rem;
+    width: 15rem;
+    border: 0.003rem solid;
+    border-radius: 0.5rem;
+    background-color: papayawhip;
+}
+.login {
+    margin-top: 2rem;
+    height: 2.5rem;
+    width: 15rem;
+    border: 0.01rem solid;
+    border-radius: 0.7rem;
+    background-color: papayawhip;
+}
+.login:active {
+    background-color: ghostwhite;
+    color: black;
+    transition: background-color 0.7s;
+}
+.username:focus {
+    background-color: ghostwhite;
+    color: black;
+    transition: background-color 1s;
+    outline: black;
+}
+.password:focus {
+    background-color: ghostwhite;
+    color: black;
+    transition: background-color 1s;
+    outline: black;
+}
+.rember {
+    margin-left: -10rem;
+    margin-top: 1rem;
+}
+.forget {
+    font-family: monospace;
+    margin-top: 1rem;
+}
+.link_forget {
+    text-decoration: none;
+}
+.notacc {
+    margin-top: -0.5rem;
+    outline: black solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.signi {
+    background-color: white;
+    border-radius: 0.2rem;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    color: black;
+    font-family: monospace;
+}
+.signup {
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    background-color: orangered;
+    border-radius: 0.2rem;
+}
+.signup a {
+    text-decoration: none;
+    font-family: monospace;
+    color: white;
+    background-color: orangered;
+}
+.linksignin {
+    text-decoration: none;
+    color: black;
+}
